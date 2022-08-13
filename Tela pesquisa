@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de pesquisa</title>
+</head>
+<body>
+    <br>
+
+    <div>
+    <label for="User">Nome:</label>
+    <input type="text" id="User" name="Name">
+    <button>OK</button>
+    <br>
+    <br>
+    <table border="ground" bordercolor="black" >
+        <tr>
+            <td>
+                Código
+            </td>
+        
+            <td>
+                Nome
+            </td>
+
+            <td>
+                Categoria
+            </td>
+            
+            <td>
+                Preço
+            </td>
+            
+            <td>
+                Qtd
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                Cerveja
+            </td>
+            <td>
+                Bebida
+            </td>
+            <td>
+                3,99
+            </td>
+            <td>
+                10
+            </td>
+            <td>
+                <a href="../Html5/Tela de Cadastro.html"><button>Editar</button></a> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            
+            <td>
+                Refri
+            </td>
+            
+            <td>
+                Bebida
+            </td>
+            
+            <td>
+                6,99
+            </td>
+            
+            <td>
+                20
+            </td>
+            <td>
+               <a href="../Html5/Tela de Cadastro.html"><button>Editar</button></a> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            
+            <td>
+                Batata
+            </td>
+            
+            <td>
+                Porções
+            </td>
+            
+            <td>
+                15,99
+            </td>
+            
+            <td>
+                1
+            </td>
+            <td>
+                <a href="../Html5/Tela de Cadastro.html"><button>Editar</button></a> 
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <a href="../Html5/Tela de Cadastro.html"><button>Novo</button></a> 
+
+ 
+    </div>
+
+    <style>
+
+        table, tr, td, button, label{
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+
+
+        div{
+
+            border-style: solid;
+            width: fit-content;
+            border-color: rgb(0, 0, 0);
+            margin: auto;   
+            padding: 20px;
+        }
+
+
+
+    </style>
+
+</body>
+</html>

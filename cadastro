@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+
+    <br>
+    
+    
+    <form>
+        <fieldset>
+            <label for="">Código: </label>
+            <input type="text">
+            <br>
+            <label for="">Nome: </label>
+            <input type="text">
+            <br>
+            Categoria: <label for="Categoria">
+                <select>
+                    <option value="valor 1">Bebidas</option>
+                    <option value="valor 2">Porções</option>
+                    <option value="valor 3">Lanches</option>
+                    <option value="valor 4">Sobremesas</option>
+                </select>
+            </label>
+            <br>
+            <label for="">Preço: </label>
+            <input type="number">
+            <br>
+            <label for="">Quantidade: </label>
+            <input type="number">
+            <br>
+            <br>
+            <button>OK</button>
+            <button>Apagar</button>
+            <button>Cancelar</button>
+        </fieldset>
+    </form>
+
+    <style>
+
+        form, input, button, select{
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+       fieldset{
+        
+            border-style: solid;
+            width: fit-content;
+            border-color: rgb(0, 0, 0);
+            margin: auto;   
+            padding: 20px;
+       }
+       
+       label{
+
+            width: 85px;
+            display: inline-block;
+
+       }
+
+       select{
+
+        width: 80px;
+        display: inline-block;
+
+       }
+
+    </style>
+
+</body>
+</html>
